@@ -1,0 +1,80 @@
+body {
+	
+}
+
+.big-header {
+	font-size:10em!important;
+	margin-top:15%!important;
+	width:80%;
+	text-align:left;
+}
+
+.shadow {
+	color:white!important;
+	text-shadow:5px 5px 5px black;
+	font-family:monospace!important;
+	font-weight:normal!important;
+}
+
+.content {
+	background:rgba(128,128,128,.3);
+	font-size:1.2em;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:light;
+	color:white;
+	margin:2% auto 2% auto;
+	padding:2% !important;
+}
+
+.float-left {
+	float:left;
+	display:block;
+}
+
+.medium-text {
+	font-size:2em;
+}
+
+.email-label {
+	text-align:right;
+}
+
+.email-input {
+	margin-top:5% !important;
+	margin:0 auto;
+	clear:left;
+}
+
+.center {
+	margin:0 auto;
+	text-align:center;
+}
+
+.social-buttons {
+	margin-top:5em;
+}
+.social-button {
+	height:5em;
+	width:5em;
+	margin-left:1em;
+}
+
+.middle-input {
+	width:35em;
+	margin:0 auto;
+}
+
+.bg-img {
+	position:fixed;
+	left:-25px;
+	right:-25px;
+	top:-25px;
+	bottom:-25px;
+	z-index:-9999;
+
+	filter:blur(7px);
+	-webkit-filter:blur(10px);
+	background-size:cover;
+	background-image:url("tent_background.png");
+	background-repeat:no-repeat;
+}
